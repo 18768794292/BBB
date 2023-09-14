@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 3603517 */
+    src: url('iconfont.woff2?t=1661160508345') format('woff2'), url('iconfont.woff?t=1661160508345') format('woff'), url('iconfont.ttf?t=1661160508345') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-diannao:before {
+    content: "\e60a";
+}
+
+.icon-toupiao:before {
+    content: "\e666";
+}

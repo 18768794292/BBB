@@ -1,0 +1,42 @@
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #7eedd1;
+    height: 41px;
+    background-image: url("双人首页01.jpg");
+}
+
+a:link {
+    color: rgb(250, 178, 183);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 208, 220);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:visited {
+    color: rgb(193, 157, 162);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-image: url("background.webp");
+}
+
+canvas {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    z-index: -1;
+}

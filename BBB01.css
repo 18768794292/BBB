@@ -1,0 +1,223 @@
+.container1 {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 40px 40px 40px rgb(143, 206, 254);
+    border-radius: 20px;
+}
+
+.box1 {
+    width: 1200px;
+    height: 200px;
+    background-image: url("双人01.jpg");
+    animation: box1 8s linear 2s infinite alternate;
+}
+
+.box2 {
+    width: 1200px;
+    height: 80px;
+    color: #0e64a1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+section {
+    width: 1200px;
+    height: 300px;
+    color: #0e64a1;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.box3 {
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+.T {
+    top: 36px;
+}
+
+.grey {
+    margin-right: 220px;
+}
+
+ul li {
+    float: left;
+    margin: 0 50px;
+}
+
+a {
+    width: 50px;
+    height: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(to right, #9ddcf7, #f698a3, #fcfcb0, #8dd9f7);
+    /* 渐变背景 */
+    background-size: 400%;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+@keyframes a {
+    100% {
+        background-position: -400% 0;
+    }
+}
+
+a:hover {
+    animation: a 7s infinite;
+}
+
+a:hover::before {
+    animation: a 7s infinite;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    background: linear-gradient(to right, #9ddcf7, #f698a3, #fcfcb0, #8dd9f7);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+strong {
+    color: #080908;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.part1 {
+    border: 6px solid rgb(69, 183, 240);
+    margin-bottom: 45px;
+    background-color: #fbe8f0;
+    animation: part1 2.1s linear 0s infinite;
+    box-shadow: 15px 15px 36px rgb(104, 182, 242);
+    border-radius: 16px;
+}
+
+.part2 {
+    border: 6px solid rgb(227, 254, 174);
+    margin-bottom: 45px;
+    height: 200px;
+    background-color: rgb(248, 254, 218);
+    box-shadow: 15px 15px 36px rgb(223, 252, 169);
+    border-radius: 16px;
+}
+
+.part3 {
+    border: 6px solid rgb(199, 243, 251);
+    margin-bottom: 45px;
+    background-color: rgb(247, 231, 240);
+    height: 300px;
+    box-shadow: 15px 15px 36px rgb(244, 205, 229);
+    border-radius: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.part4 {
+    border: 6px solid rgb(198, 198, 148);
+    margin-bottom: 30px;
+    background-color: rgb(247, 240, 218);
+    height: 400px;
+    padding-top: 30px;
+    box-shadow: 15px 15px 36px rgb(252, 237, 214);
+    border-radius: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.part5 {
+    margin-left: 400px;
+    margin-top: 41px;
+    margin-bottom: 45px;
+    width: 500px;
+    height: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box8 {
+    float: right;
+    position: relative;
+    right: 12px;
+}
+
+.box5 {
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 38px
+}
+
+footer {
+    height: 200px;
+    color: #14e6f9db;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("双人底部.jpg");
+    background-size: cover;
+}
+
+@keyframes part1 {
+    0% {
+        border: 6px solid rgb(69, 183, 240);
+        margin-bottom: 45px;
+        background-color: #ddf4f8;
+    }
+    50% {
+        border: 6px solid rgb(69, 183, 240);
+        margin-bottom: 45px;
+        background-color: #b1f2f9;
+    }
+    100% {
+        border: 6px solid rgb(69, 183, 240);
+        margin-bottom: 45px;
+        background-color: #c8e0e3;
+    }
+}
+
+@keyframes box1 {
+    0% {
+        width: 1200px;
+        height: 200px;
+        background-image: url("双人01.jpg");
+    }
+    50% {
+        width: 1200px;
+        height: 200px;
+        background-image: url("双人首页01.jpg");
+    }
+    100% {
+        width: 1200px;
+        height: 200px;
+        background-image: url("双人首页02.jpg");
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.pl {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(28, 211, 247);
+}
+
+body {
+    background-image: url("background01.webp");
+}

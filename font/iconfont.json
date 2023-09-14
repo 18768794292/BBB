@@ -1,0 +1,16 @@
+{
+  "id": "3603517",
+  "name": "BBB投票",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "274624",
+      "name": "投票",
+      "font_class": "toupiao",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    }
+  ]
+}
